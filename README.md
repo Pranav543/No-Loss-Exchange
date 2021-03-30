@@ -1,46 +1,11 @@
-# Project Title
+# No-Loss-Exchange
 
 ## Table of Contents
 
 - [About](#about)
-- [Getting Started](#getting_started)
-- [Usage](#usage)
-- [Contributing](../CONTRIBUTING.md)
 
 ## About <a name = "about"></a>
 
-Write about 1-2 paragraphs describing the purpose of your project.
+I have always wondered why small profitable businesses don't have easy access to liquidity so that they can expand quickly. There are quite a few reasons behind this like small business generally only have word-of-mouth to spread information so they don't get to reach out to good investors, taking a loan from a bank is also not an option as it is a long and time-consuming process. But what they do have is a strong customer community who can back them up as these customers believe in their business.
 
-## Getting Started <a name = "getting_started"></a>
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-What things you need to install the software and how to install them.
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running.
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo.
-
-## Usage <a name = "usage"></a>
-
-Add notes about how to use the system.
+So, what if there was a platform where customers can invest in these small businesses which they believe in and transact with daily, for a short period of time. Enter No-Loss-Exchange where businesses will enlist themselves to sign a Legal-smart-contract which will enforce them to return the amount they will be borrowing from their customers. This will allow the business to have easy access to liquidity with no collateral and customers will also be incentivized(more on that later).
