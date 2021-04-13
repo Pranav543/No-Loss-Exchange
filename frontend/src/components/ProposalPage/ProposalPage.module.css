@@ -1,0 +1,226 @@
+.ProposalPage {
+    margin-bottom : 40px;
+}
+
+.ProposalPage p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.Main {
+    display: flex;
+    flex-direction: column;
+    --gap : 30px;
+}
+
+.Test {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background: #eaeaea;
+}
+
+.ProposalPage h2 {
+    color: black;
+    font-size: 30px;
+}
+
+.ImageCarouselContainer{
+    grid-row: 2 / span 1;
+    grid-column: 1 / span 1;
+    width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+}
+
+.ImageCarouselContainer img {
+    max-height: 100%;
+}
+
+.CreatorInfo{
+    position: relative;
+    height: auto;
+    grid-row: 2 / span 1;
+    grid-column: 2 / span 1;
+    width: 100%;
+    background: #eaeaea;
+    padding: 20px 20px;
+    margin-bottom : var(--gap);
+    overflow: hidden;
+    box-shadow: var(--bold) 1px 1px, var(--bold) 2px 2px, var(--bold) 3px 3px, var(--bold) 4px 4px, var(--bold) 5px 5px ;
+}
+
+.CreatorInfo h4 {
+    color: var(--bold);
+    margin-top : 0;
+    font-size: 22px;
+}
+
+.CreatorInfo img {
+    float: right;
+    border-radius: 3px;
+    width: 180px;
+    height: 180px;
+    margin : 0 0 10px 20px;
+}
+
+.FundingTopline {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Funding {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-row : 2 / span 1;
+    grid-column: 1 / span 2;
+    background: #eaeaea;
+    box-shadow: var(--bold) 1px 1px, var(--bold) 2px 2px, var(--bold) 3px 3px, var(--bold) 4px 4px, var(--bold) 5px 5px ;
+    padding: 20px 20px;
+    padding-right : 40px;
+    margin-bottom : var(--gap);
+}
+.FundingLeft{
+    width: calc(100% - 150px);
+}
+
+.FundingInfo {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    color: var(--accent);
+    margin: 5px 10px;
+}
+
+.FundingInfo img {
+    height: 25px;
+    margin: 0 5px;
+}
+
+.PledgeContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.PledgeButton, .RewardFund {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: var(--accent);
+    padding: 10px 20px;
+    font-size: 30px;
+    box-shadow: #606060 1px 1px, #606060 2px 2px, #606060 3px 3px, #606060 4px 4px, #606060 5px 5px ;
+    user-select: none;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+.PledgeButton:hover, .RewardFund:Hover {
+    filter: contrast(120%);
+    bottom: -2px;
+    right: -2px;
+    box-shadow: #606060 3px 3px, #606060 4px 4px, #606060 5px 5px ;
+}
+
+.RewardFundContainer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.RewardFund {
+    font-size: 20px;
+    padding: 5px 10px;
+}
+
+.ProgressBar {
+    height: 40px;
+    border-radius: 100px;
+    border: 4px solid white;
+    overflow: hidden;
+    background: #606060;
+}
+
+.Description {
+    display: flex;
+    flex-direction: column;
+    grid-row: 3 / span 1;
+    grid-column: 1 / span 1;
+    min-height: 700px;
+    background: #eaeaea;
+    box-shadow: var(--bold) 1px 1px, var(--bold) 2px 2px, var(--bold) 3px 3px, var(--bold) 4px 4px, var(--bold) 5px 5px ;
+    padding: 20px 20px;
+    margin-top : var(--gap);
+}
+
+.RewardTiers {
+    grid-row : 3 / span 1;
+    grid-column: 2 / span 1;
+}
+
+.RewardTier {
+    position: relative;
+    border: 5px dashed var(--bold);
+    height: auto;
+    padding: 20px 20px;
+    margin-bottom: 25px;
+}
+
+.RewardTier h3 {
+    color: var(--bold);
+    margin: 0;
+}
+
+.RewardTier span {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 0px;
+    right: 0px;
+    color: var(--accent);
+    font-size: 20px;
+    font-weight: 500;
+
+    background: #eaeaea;
+    padding: 5px 10px;
+    border-bottom-left-radius: 5px;
+}
+
+.RewardTier img {
+    height: 25px;
+    margin: 0 5px;
+}
+
+.SubmitButton {
+    background: #41fc03;
+    color: white;
+    user-select: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: all 300ms;
+}
+
+.SubmitContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom : 15px;
+}
+
+.Input input[type=text] {
+    height: 50px;
+}
+
+.Input input[type=text], .Box textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    border : 3px solid var(--bold);
+    color: black;
+    padding : 10px 10px;
+    font-size: 16px;
+    font-weight: 600;
+}

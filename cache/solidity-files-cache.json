@@ -1,0 +1,293 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "E:\\EthIndia Fellowship\\No-Loss-Exchange\\contracts\\interfaces\\IERC20.sol": {
+      "lastModificationDate": 1617694376692,
+      "contentHash": "d3ee913278dd5b5cfb4fde8b625cb0eb",
+      "sourceName": "contracts/interfaces/IERC20.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "E:\\EthIndia Fellowship\\No-Loss-Exchange\\contracts\\NLEPool.sol": {
+      "lastModificationDate": 1618305872983,
+      "contentHash": "07696b531ccc7f4487db2e4c7ac8cd19",
+      "sourceName": "contracts/NLEPool.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./lib/Libraries.sol",
+        "./interfaces/IERC20.sol",
+        "./interfaces/ILendingPool.sol",
+        "./interfaces/IStableDebtToken.sol",
+        "./interfaces/IProtocolDataProvider.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "NLEPool"
+      ]
+    },
+    "E:\\EthIndia Fellowship\\No-Loss-Exchange\\contracts\\lib\\Libraries.sol": {
+      "lastModificationDate": 1617694376695,
+      "contentHash": "b613ef055d89cf90b3d17c99b0b6bb44",
+      "sourceName": "contracts/lib/Libraries.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "Address",
+        "DataTypes",
+        "SafeERC20",
+        "SafeMath"
+      ]
+    },
+    "E:\\EthIndia Fellowship\\No-Loss-Exchange\\contracts\\interfaces\\ILendingPool.sol": {
+      "lastModificationDate": 1617694376693,
+      "contentHash": "d667bf8b5c2f7b26c5eec05f0bf09970",
+      "sourceName": "contracts/interfaces/ILendingPool.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../lib/Libraries.sol",
+        "./ILendingPoolAddressesProvider.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "ILendingPool"
+      ]
+    },
+    "E:\\EthIndia Fellowship\\No-Loss-Exchange\\contracts\\interfaces\\IStableDebtToken.sol": {
+      "lastModificationDate": 1617694376694,
+      "contentHash": "71766df924c2d078e314b57471d535e5",
+      "sourceName": "contracts/interfaces/IStableDebtToken.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "IStableDebtToken"
+      ]
+    },
+    "E:\\EthIndia Fellowship\\No-Loss-Exchange\\contracts\\interfaces\\IProtocolDataProvider.sol": {
+      "lastModificationDate": 1617694376693,
+      "contentHash": "2257810a33bb97b5f0057995d16c6a6d",
+      "sourceName": "contracts/interfaces/IProtocolDataProvider.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ILendingPoolAddressesProvider.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "IProtocolDataProvider"
+      ]
+    },
+    "E:\\EthIndia Fellowship\\No-Loss-Exchange\\contracts\\interfaces\\ILendingPoolAddressesProvider.sol": {
+      "lastModificationDate": 1617694376693,
+      "contentHash": "c09a70c86fa643962978c5a93b39af84",
+      "sourceName": "contracts/interfaces/ILendingPoolAddressesProvider.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "ILendingPoolAddressesProvider"
+      ]
+    },
+    "E:\\EthIndia Fellowship\\No-Loss-Exchange\\contracts\\interfaces\\INLEPool.sol": {
+      "lastModificationDate": 1618305860575,
+      "contentHash": "22fba7342ff9a25b099048de8fc5933d",
+      "sourceName": "contracts/interfaces/INLEPool.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "INLEPool"
+      ]
+    }
+  }
+}

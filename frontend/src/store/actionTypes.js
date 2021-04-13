@@ -1,0 +1,12 @@
+export const connectWallet = "CONNECT_WALLET";
+export const connectProvider = "CONNECT_PROVIDER";
+export const connectDaiContract = "CONNECT_DAI_CONTRACT";
+export const disconnectWallet = "DISCONNECT_WALLET";
+export const resetState = "RESET_STATE";
+export const setNetworkID = "SET_NETWORK_ID";
+export const connectnlePool = "CONNECT_NLE_POOL";
+export const connectDataProvider = "CONNECT_DATA_PROVIDER";
+export const connectAavePool = "CONNECT_AAVE_POOL";
+export const connectDaiStableDebtToken = "CONNECT_DAI_STABLE_DEBT_TOKEN";
+export const connectADaiContract = "CONNECT_A_DAI_CONTRACT";
+export const allProposals = "ALL_PROPOSALS";

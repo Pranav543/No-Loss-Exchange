@@ -1,0 +1,159 @@
+textarea {
+  width: 100%;
+  resize: vertical;
+  min-height: 300px;
+}
+
+.CreateProposal {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.CreateProposal p {
+  font-size: 18px;
+}
+
+.Box {
+  padding: 10px 30px;
+  background: #eaeaea;
+  box-shadow: var(--bold) 1px 1px, var(--bold) 2px 2px, var(--bold) 3px 3px,
+    var(--bold) 4px 4px, var(--bold) 5px 5px;
+  margin-bottom: 25px;
+}
+
+.Box h2 {
+  color: var(--bold);
+  font-weight: 700;
+}
+
+.Box h3 {
+  margin: 0;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  color: var(--bold);
+}
+
+.Box input[type="text"] {
+  height: 50px;
+}
+
+.Box input[type="text"],
+.Box textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  border: 3px solid var(--bold);
+  color: black;
+  padding: 10px 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.Tiers {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.Tier {
+  /* border: 4px dashed var(--bold); */
+  width: 33%;
+  padding: 20px 15px;
+}
+
+.Tier h4 {
+  color: white;
+  display: inline-block;
+  padding: 2px 10px;
+  background: var(--bold);
+  margin: 0;
+}
+
+.Payment {
+  width: 100%;
+  display: flex;
+  height: 50px;
+  align-items: center;
+}
+
+.Payment input[type="number"] {
+  width: 80%;
+  border: 3px solid var(--bold);
+  border-right: none;
+  color: black;
+  padding: 10px 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.Payment span {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  background: var(--bold);
+  height: calc(100% - 2px);
+  border: 3px solid var(--bold);
+  border-left: none;
+  color: white;
+  user-select: none;
+}
+
+.Payment img,
+.Balance img {
+  height: 18px;
+  margin-left: 5px;
+}
+
+.Box input[type="file"] {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.ImageUpload {
+  position: relative;
+  height: 150px;
+  border: 4px dashed var(--bold);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  transition: all 300ms;
+}
+
+.ImageUpload:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.ImageUpload p {
+  margin: 0;
+  color: var(--bold);
+  font-weight: 700;
+  user-select: none;
+}
+
+.SubmitContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.SubmitButton {
+  background: var(--bold);
+  color: white;
+  user-select: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: all 300ms;
+}
+
+.SubmitButton:hover {
+  filter: contrast(120%);
+}

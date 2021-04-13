@@ -1,0 +1,27 @@
+.Dapp {
+  min-height: 100vh;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(162, 10, 154, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.Layout {
+  display: grid;
+  grid-template-columns: 7vw 1fr 7vw;
+}
+
+.Main {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+@media only screen and (min-width: 2325px) {
+  .Layout {
+    display: grid;
+    grid-template-columns: 1fr 2000px 1fr;
+  }
+}
